@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.paper {
+  width: 90%;
+  height: 70%;
+  text-align: center;
+  box-shadow: none !important;
+  /* border-top: solid; */
+  /* border-color: rgb(238, 236, 236); */
+  padding: 3%;
+  /* border-width: 35px; */
+}
+.name-field{
+  margin: 25px;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  /* width: 20vw;
+  height: 6vh; */
+  /* border-radius: 4px; */
+  width: 260px;
+  /* box-sizing: border-box; */
+  /* font-weight: 400;
+  font-size: 1rem;
+  padding-left: 14px;
+  border:solid 1.5px;
+  border-color: rgb(209, 207, 207); */
+}
+.name-field::placeholder {
+  color: #A9A8A8;
+}
+/* .name-field:hover{
+  border-color:black;
+} */
+/* .name-field:focus {
+  outline: none;
+  border-color: #1976D2;
+  border-width: 1.8px;
+} */
+#password{
+background-color: white !important;
+margin: 15px;
+ /* width: 250px; */
+/* width: 15vw;
+height: 0.5px;  */
+/* box-sizing: border-box; */
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+  margin-bottom: 5px;
+height: 6vh;
+  width: 20vw;
+  background-color: white !important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+ padding-left: 3px;
+ background-color: white !important
+}
+#logIn-button{
+width: 20vw;
+background-color: #FAE282;
+box-shadow:none;
+margin: 15px;
+width: 260px;
+}
+.register {
+background-color: #FAE282 !important;
+box-shadow: none !important;
+}
+input:-internal-autofill-selected {
+  background-color: white;
+}
+.signIn{
+  color: #3498DB;
+}
